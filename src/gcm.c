@@ -3,7 +3,6 @@
 #else
 #include "win_dirent.h"
 #endif
-
 #include <errno.h>
 #include <stdbool.h>
 #include <stdio.h>

@@ -2,7 +2,11 @@
 #include <stdlib.h>
 #include <sys/stat.h>
 #include <string.h>
+#ifndef _WIN32
 #include <dirent.h>
+#else
+#include "win_dirent.h"
+#endif
 #include <unistd.h>
 #include <getopt.h>
 #include "u8.h"
