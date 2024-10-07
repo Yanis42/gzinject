@@ -12,8 +12,8 @@ jobs:
         include:
           - os: ubuntu-latest
             extension: ""
-          - os: windows-latest
-            extension: ".exe"
+          # - os: windows-latest
+          #   extension: ".exe"
           - os: macos-latest
             extension: ""
     defaults:
