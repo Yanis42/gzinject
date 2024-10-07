@@ -16,6 +16,9 @@ jobs:
             extension: ".exe"
           - os: macos-latest
             extension: ".app"
+    defaults:
+      run:
+        shell: bash
 
     steps:
     # Checkout the repository (shallow clone)
