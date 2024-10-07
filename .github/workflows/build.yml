@@ -15,7 +15,7 @@ jobs:
           - os: windows-latest
             extension: ".exe"
           - os: macos-latest
-            extension: ".app"
+            extension: ""
     defaults:
       run:
         shell: bash
