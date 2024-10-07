@@ -31,7 +31,7 @@ jobs:
 
     # Build the project
     - name: Build
-      run: ./configure && make -j$(nproc)
+      run: ./configure && make
 
     # Upload the binary if we're on the main branch
     - name: Upload artifact
